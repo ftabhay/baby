@@ -1,7 +1,8 @@
+--prefer-binary
+
 # 🔊 Audio Handling
 sounddevice==0.4.6              # Record audio from microphone
-scipy==1.10.1
-                  # Save recorded audio as WAV
+scipy==1.13.0                   # Save recorded audio as WAV
 pydub==0.25.1                   # Audio playback and manipulation
 ffmpeg-python==0.2.0            # Required by pydub for audio conversion
 gtts==2.5.1                     # Google TTS for speaking reply
