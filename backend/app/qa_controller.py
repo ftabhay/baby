@@ -6,4 +6,4 @@ def handle_general_question(user_input):
         f"[INST] You are a baby healthcare assistant. "
         f"Answer the question simply.\n\nQuestion: {user_input} [/INST]"
     )
-    return "yo back end working"
+    return ask_groq(prompt)
