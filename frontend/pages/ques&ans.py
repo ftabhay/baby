@@ -9,7 +9,7 @@ st.write("Ask questions related to baby care.")
 user_input = st.text_input("Ask a question:")
 if user_input:
     try:
-        res = requests.post("http://127.0.0.1:5000/ask", json={"query": user_input})
+        res = requests.post("https://baby-1-pl5f.onrender.com/ask", json={"query": user_input})
         if res.status_code == 200:
             st.success(res.json()["response"])
         else:

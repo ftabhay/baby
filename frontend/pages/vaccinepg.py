@@ -23,7 +23,7 @@ if submitted:
     st.success(f"Vaccine schedule for {baby_name} (DOB: {dob})")
 
     # 1. Register Baby
-    register_url = "http://127.0.0.1:5000/register-baby"
+    register_url = "https://baby-1-pl5f.onrender.com/register-baby"
     register_res = requests.post(register_url, json={
         "name": baby_name,
         "dob": dob.strftime("%Y-%m-%d")
@@ -33,7 +33,7 @@ if submitted:
         st.success("✅ Baby profile registered successfully.")
 
         # 2. Get Schedule
-        schedule_url = "http://127.0.0.1:5000/schedule"
+        schedule_url = "https://baby-1-pl5f.onrender.com/schedule"
         schedule_res = requests.get(schedule_url)
 
         if schedule_res.status_code == 200:
