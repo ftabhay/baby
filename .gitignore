@@ -1,0 +1,72 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Environment variables
+.env
+
+# Audio files
+*.wav
+*.mp3
+
+# Temporary or processed files
+transcribed.txt
+temp_audio/
+reply.mp3
+question_fixed.wav
+question.wav
+temp_*.*
+*.tmp
+
+# Log files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Streamlit specific
+.streamlit/config.toml
+.streamlit/credentials.toml
+.cache/
+
+# Uploaded/Generated files
+uploads/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Python artifacts
+*.db
+*.sqlite3
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# JetBrains IDEs
+.idea/
+
+# Node modules (if any future JS use)
+node_modules/
+
