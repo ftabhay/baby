@@ -1,22 +1,18 @@
-flask
+--prefer-binary
+
+# Core frameworks
+Flask==2.3.3
 fastapi
 uvicorn
+gunicorn==21.2.0
+
+# Data & DB
 tinydb
-
-Flask
-requests
-python-dotenv
-
-# Backend
-Flask==2.3.3
-python-dotenv==1.0.1
 requests==2.31.0
+python-dotenv==1.0.1
 
-# For scheduling and date handling
+# Scheduling & Time
 APScheduler==3.10.4
 
-#Image and file handling
+# Image processing
 Pillow==10.3.0
-
-# Dev tools
-gunicorn==21.2.0 
