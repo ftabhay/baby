@@ -1,9 +1,10 @@
 services:
   - type: web
-    name: baby-frontend
-    runtime: python
-    buildCommand: ""
-    startCommand: streamlit run frontend/streamlit_app.py --server.port=$PORT --server.address=0.0.0.0
+    name: baby-backend
+    env: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: python backend/main.py
     envVars:
-      - key: PORT
-        value: 8000
+      - key: PYTHON_VERSION
+        value: 3.10
