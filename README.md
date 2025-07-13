@@ -86,7 +86,7 @@ streamlit run streamlit_app.py
 
 > To preview map functionality, ensure `vaccine_map.html` is served from `/static/` and location access is enabled in the browser.
 
----link: http://localhost:8501/
+---link: https://baby-ssvt.onrender.com
 
 ## 📌 To-Do
 
